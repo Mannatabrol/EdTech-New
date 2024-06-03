@@ -28,6 +28,8 @@ import ViewCourse from "./Pages/ViewCourse.jsx";
 import Cart from "./Pages/Cart.jsx";
 import MyCourses from "./components/core/Dashboard/InstructorPages/MyCourses.jsx";
 import Chatbot from "./Pages/Chatbot.jsx";
+import { SiChatbot } from "react-icons/si";
+import Community from "./Pages/Community.jsx";
 
 function App() {
 	const user = useSelector((state) => state.profile);
@@ -100,6 +102,10 @@ function App() {
 					element={<ContactUs />}
 				/>
 				<Route
+					path='/community'
+					element={<Community />}
+				/>
+				<Route
 					element={
 						<PrivateRoute>
 							<DashBoard />
@@ -165,7 +171,7 @@ function App() {
 			<button
 				onClick={toggleChatbot}
 				className='fixed bottom-4 right-4 p-3 bg-blue-500 text-white rounded-full shadow-lg hover:bg-blue-600 focus:outline-none'>
-				Chat
+				<SiChatbot className='size-5' />
 			</button>
 			{showChatbot && (
 				<div className='fixed bottom-16 right-4 z-50'>
