@@ -24,7 +24,7 @@ const {
 	createSubSection,
 	updateSubSection,
 	deleteSubSection,
-} = require("../controllers/SubSection");
+} = require("../controllers/subSection");
 const {
 	createRating,
 	getAverageRating,
