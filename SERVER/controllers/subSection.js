@@ -1,6 +1,6 @@
 const { findByIdAndDelete } = require("../models/category");
-const Section = require("../models/Section");
-const SubSection = require("../models/SubSection");
+const Section = require("../models/section");
+const SubSection = require("../models/subSection");
 const { uploadImageToCloudinary } = require("../utils/imageUploader");
 
 exports.createSubSection = async (req, res) => {
