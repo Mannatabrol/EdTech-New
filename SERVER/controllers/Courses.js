@@ -373,7 +373,7 @@ exports.getFullCourseDetails = async(req, res) => {
             success: true,
             data: {
                 courseDetails,
-                completedVideos: courseProgressCount ? .completedVideos ? courseProgressCount ? .completedVideos : []
+                completedVideos: courseProgressCount?.completedVideos ? courseProgressCount?.completedVideos : []
             }
         })
     } catch (err) {
