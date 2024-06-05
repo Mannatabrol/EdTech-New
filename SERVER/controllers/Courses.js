@@ -1,7 +1,7 @@
 const Course = require("../models/Course");
 const Section = require("../models/section");
 const SubSection = require("../models/subSection");
-const Category = require("../models/Category");
+const Category = require("../models/category");
 const User = require("../models/User");
 const { uploadImageToCloudinary } = require("../utils/imageUploader");
 const { default: mongoose } = require("mongoose");
@@ -373,7 +373,7 @@ exports.getFullCourseDetails = async(req, res) => {
             success: true,
             data: {
                 courseDetails,
-                completedVideos: courseProgressCount?.completedVideos ? courseProgressCount?.completedVideos : []
+                completedVideos: courseProgressCount ? .completedVideos ? courseProgressCount ? .completedVideos : []
             }
         })
     } catch (err) {
