@@ -6,19 +6,19 @@ const Community = () => {
 		{
 			name: "WhatsApp",
 			icon: <FaWhatsapp />,
-			link: "https://wa.me/your-number",
+			link: "https://chat.whatsapp.com/ENCkWdpZokkJsDt7vW3B62",
 			info: "Join our WhatsApp group to stay updated with the latest news, events, and discussions. Connect with fellow members and share your thoughts instantly.",
 		},
 		{
 			name: "GitHub",
 			icon: <FaGithub />,
-			link: "https://github.com/your-profile",
+			link: "https://github.com/Mannatabrol",
 			info: "Explore our GitHub repository to access our open-source projects. Contribute to the codebase, raise issues, and collaborate with other developers.",
 		},
 		{
 			name: "LinkedIn",
 			icon: <FaLinkedin />,
-			link: "https://linkedin.com/in/your-profile",
+			link: "https://www.linkedin.com/groups/14465818/",
 			info: "Follow our LinkedIn page for professional updates, networking opportunities, and industry insights. Connect with team members and expand your professional network.",
 		},
 	];
